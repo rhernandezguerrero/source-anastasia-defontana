@@ -1,0 +1,226 @@
+{
+  "streams": [
+    {
+      "stream": {
+        "name": "sales",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "skip": {
+              "type": "number"
+            },
+            "total": {
+              "type": "integer"
+            },
+            "product": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "stock_details",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "skip": {
+              "type": "number"
+            },
+            "total": {
+              "type": "integer"
+            },
+            "product": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "stocks",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "skip": {
+              "type": "number"
+            },
+            "total": {
+              "type": "integer"
+            },
+            "product": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "clients",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "skip": {
+              "type": "number"
+            },
+            "total": {
+              "type": "integer"
+            },
+            "client": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "firstName": {
+                  "type": "string"
+                },
+                "lastName": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    },
+    {
+      "stream": {
+        "name": "products",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "skip": {
+              "type": "number"
+            },
+            "total": {
+              "type": "integer"
+            },
+            "product": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    },
+     {
+      "stream": {
+        "name": "purchaseorders",
+        "json_schema": {
+          "$schema": "http://json-schema.org/draft-04/schema#",
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "number"
+            },
+            "skip": {
+              "type": "number"
+            },
+            "total": {
+              "type": "integer"
+            },
+            "product": {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "number"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "price": {
+                  "type": "number"
+                }
+              }
+            }
+          }
+        },
+        "supported_sync_modes": ["full_refresh"]
+      },
+      "sync_mode": "full_refresh",
+      "destination_sync_mode": "overwrite"
+    }
+  ]
+}

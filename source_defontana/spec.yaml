@@ -1,0 +1,32 @@
+documentationUrl: https://docsurl.com
+connectionSpecification:
+  $schema: http://json-schema.org/draft-07/schema#
+  title: Defontana Spec
+  type: object
+  required:
+    - client_id
+    - company_id
+    - user
+    - password
+  properties:
+    client_id:
+      title: Client ID
+      type: string
+      description: describe me
+    company_id:
+        type: string
+        description: describe me
+    user:
+        type: string
+        description: describe me
+    password:
+        type: string
+        description: describe me
+    itemsPerPage:
+        type: integer
+        description: describe me
+        default: "0"
+    pageNumber:
+        type: integer
+        description: describe me
+        default: "0"

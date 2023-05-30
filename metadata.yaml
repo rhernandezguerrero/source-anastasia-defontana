@@ -1,0 +1,20 @@
+data:
+  allowedHosts:
+    hosts:
+      - TODO # Please change to the hostname of the source.
+  registries:
+    oss:
+      enabled: false
+  connectorSubtype: api
+  connectorType: source
+  definitionId: 57c4a2eb-caf6-47cf-9c6b-00b7fc835a60
+  dockerImageTag: 0.1.0
+  dockerRepository: airbyte/source-defontana
+  githubIssueLabel: source-defontana
+  icon: defontana.svg
+  license: MIT
+  name: Defontana
+  releaseDate: TODO
+  releaseStage: alpha
+  supportUrl: https://docs.airbyte.com/integrations/sources/defontana
+metadataSpecVersion: "1.0"
